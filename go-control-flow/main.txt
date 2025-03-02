@@ -1,0 +1,23 @@
+we'll cover:
+
+1. If-Else Statements
+2. Switch Case Statements
+3. Loops in Go (for, range)
+4. Practical Hands-on Tasks
+
+
+ Switch-Case in Go
+Instead of multiple if-else statements, use switch.
+
+Switch Without break
+Unlike other languages, Go does not require break, as cases exit automatically.
+
+Loops in Go (For & Range)
+Go has only one loop: for loop. There is no while or do-while loop.
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Write a program that checks if a number is positive, negative, or zero using if-else.
+✅ Task 2: Use a switch statement to print the name of the day based on a number (1-7).
+✅ Task 3: Write a for loop to print numbers from 10 to 1 in reverse order.
+✅ Task 4: Create a multiplication table program using a loop.
+✅ Task 5: Iterate over an array of names using range and print them.
