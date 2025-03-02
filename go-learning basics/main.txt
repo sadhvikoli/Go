@@ -1,0 +1,15 @@
+
+package main → The entry point of execution.
+import "fmt" → Imports the fmt package for formatted I/O.
+func main() → The main function where execution starts.
+fmt.Println("Hello, Go!") → Prints to the console.
+
+
+go build main.go
+./main  # Runs the compiled binary
+
+View installed packages:
+go list std
+
+View documentation for a package:
+go doc fmt
