@@ -1,0 +1,33 @@
+we’ll cover:
+
+1. Defining and Calling Functions
+2. Functions with Multiple Return Values
+3. Variadic Functions
+4. Anonymous (Lambda) Functions
+5. Error Handling with error Interface
+6. Custom Error Handling
+7. Panic and Recover
+8. Practical Hands-on Tasks
+
+
+Defining and Calling Functions in Go
+A function in Go is defined using the func keyword.
+
+Functions with Multiple Return Values
+A function can return multiple values.
+
+Variadic Functions (Functions with Unlimited Arguments)
+Go allows a function to accept any number of arguments.
+
+Anonymous (Lambda) Functions in Go
+Go supports anonymous functions (functions without names).
+
+Error Handling in Go
+Go uses the error interface for error handling.
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Write a function to calculate the factorial of a number using recursion.
+✅ Task 2: Create a function that returns the sum and average of an array of numbers.
+✅ Task 3: Implement error handling for division by zero.
+✅ Task 4: Write a program with panic and recover to prevent crashes.
+✅ Task 5: Use a variadic function to find the maximum number from a list of integers.
