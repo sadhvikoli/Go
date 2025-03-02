@@ -1,0 +1,34 @@
+we’ll cover:
+
+1. Declaring Variables (var vs :=)
+2. Constants (const)
+3. Primitive Data Types
+4. Type Conversion
+5. Zero Values in Go
+6. Practical Hands-on Tasks
+
+
+Data Types in Go
+Go has four main types:
+
+Basic types: int, float64, bool, string
+Composite types: array, slice, map, struct
+Reference types: pointers, functions, channels
+Interface types: interface{}
+
+
+Type Conversion in Go
+Go does not support implicit type conversion. You must explicitly convert types.
+
+Zero Values in Go
+If a variable is declared but not initialized, it gets a zero value.
+Integers default to 0.
+Floats default to 0.0.
+Booleans default to false.
+Strings default to "" (empty string).
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Write a program that declares variables using both var and := and prints their values.
+✅ Task 2: Declare constants for pi, gravity, and speedOfLight and print them.
+✅ Task 3: Write a program that converts an integer to a float and prints the result.
+✅ Task 4: Declare variables without assigning values and print their zero values.

@@ -1,0 +1,28 @@
+1️⃣ Camel Case (camelCase)
+✅ Used for: Local variables, function parameters, and private functions.
+❌ Not used for: Exported identifiers (public functions and variables).
+
+2️⃣ Pascal Case (PascalCase)
+✅ Used for: Exported functions, struct names, interface names, and constants.
+❌ Not used for: Private variables or functions (use camelCase instead).
+
+3️⃣ Snake Case (snake_case)
+✅ Used for: JSON keys, database column names, and some file names.
+❌ Not used for: Go variable and function names (Go prefers camelCase and PascalCase).
+
+4️⃣ Uppercase Snake Case (UPPER_SNAKE_CASE)
+✅ Used for: Constants.
+❌ Not used for: Variables and function names.
+
+5️⃣ Kebab Case (kebab-case)
+❌ Not used in Go at all (because Go doesn't allow - in variable names).
+✅ Used for: File names, CLI commands, and URLs.
+
+
+
+Case Type	       Example  	Usage
+camelCase	       myVariable	Local variables, private functions
+PascalCase         MyFunction	Exported functions, struct names
+snake_case	       user_id      JSON keys, database fields
+UPPER_SNAKE_CASE   MAX_LIMIT	Constants
+kebab-case	       my-file.go	File names, CLI commands
