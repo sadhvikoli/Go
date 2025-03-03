@@ -1,0 +1,29 @@
+we’ll cover:
+
+1. Structs (User-Defined Data Types)
+2. Methods on Structs
+3. Embedding and Composition in Structs
+4. Interfaces (Polymorphism in Go)
+5. Practical Hands-on Tasks
+
+
+Structs in Go (Custom Data Types)
+A struct in Go is a user-defined type that groups related variables.
+
+Struct Pointers (Modifying Struct Fields)
+By default, Go passes structs by value (copy).
+Use pointers to modify the original struct.
+
+Struct Embedding (Inheritance Alternative in Go)
+Go does not support classes but allows composition (struct embedding).
+
+Interfaces in Go (Polymorphism)
+An interface in Go defines a set of methods.
+A struct implements an interface by defining those methods
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Create a struct Car with fields brand, model, year and a method details().
+✅ Task 2: Implement a struct BankAccount with deposit() and withdraw() methods.
+✅ Task 3: Create a struct Employee, embed it inside Manager, and print details.
+✅ Task 4: Define an interface Animal with a method speak(). Implement Dog and Cat structs that satisfy this interface.
+✅ Task 5: Write a function that takes an empty interface (interface{}) and prints the type of the value.
