@@ -1,0 +1,23 @@
+ we’ll cover:
+
+1. Arrays in Go
+2. Slices (Dynamic Arrays)
+3. Maps (Key-Value Pairs)
+4. Practical Hands-on Tasks
+
+Arrays in Go
+An array is a fixed-length collection of elements of the same type.
+
+Slices (Dynamic Arrays in Go)
+A slice is a dynamic and resizable version of an array.
+
+Maps (Key-Value Pairs)
+A map is a collection of key-value pairs.
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Create an array of 5 integers and print each element using a loop.
+✅ Task 2: Create a slice, append elements to it, and print its length and capacity.
+✅ Task 3: Slice an array into two parts and print both.
+✅ Task 4: Create a map of student names and their scores, add a new student, and delete one.
+✅ Task 5: Write a function to return the highest score from a map of student marks.
+
