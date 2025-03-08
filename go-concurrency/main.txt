@@ -1,0 +1,33 @@
+we’ll cover:
+
+1. Goroutines (Lightweight Threads in Go)
+2. Synchronization Using WaitGroup
+3. Channels (Communicating Between Goroutines)
+4. Buffered & Unbuffered Channels
+5. Select Statement for Multiple Channels
+6. Practical Hands-on Tasks
+
+
+Goroutines – Lightweight Threads in Go
+A goroutine is a lightweight concurrent function execution in Go.
+
+Using sync.WaitGroup for Synchronization
+Go does not wait for goroutines to finish.
+Use WaitGroup to ensure all goroutines complete execution.
+
+Channels – Communicating Between Goroutines
+A channel is a way for goroutines to communicate safely and synchronously.
+
+Buffered vs. Unbuffered Channels
+Channels can be unbuffered (default) or buffered.
+
+The select Statement (Handling Multiple Channels)
+The select statement lets a goroutine wait for multiple channels.
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Create a goroutine that prints numbers from 1 to 10 concurrently.
+✅ Task 2: Modify the above program to use WaitGroup instead of time.Sleep().
+✅ Task 3: Implement a channel to pass a string message from one goroutine to another.
+✅ Task 4: Create a buffered channel of size 3 and demonstrate sending and receiving.
+✅ Task 5: Use the select statement to listen to two channels and print whichever responds first.
+
