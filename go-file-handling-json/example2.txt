@@ -1,0 +1,3 @@
+Go is awesome!
+File handling is easy!
+Enjoy coding!

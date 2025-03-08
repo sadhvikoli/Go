@@ -1,0 +1,19 @@
+we’ll cover:
+
+1. Reading & Writing Files in Go
+2. Appending Data to Files
+3. Working with JSON (Encoding & Decoding)
+4. Practical Hands-on Tasks
+
+Appending Data to a File
+✅ Appending Data Without Overwriting
+
+Working with JSON in Go
+✅ Encoding (Struct to JSON)
+
+🔧 Hands-on Practical Tasks
+✅ Task 1: Write a program to create a file and write user input into it.
+✅ Task 2: Write a program to read and print a file’s content line by line.
+✅ Task 3: Create a JSON file storing a list of users and read the data into a Go struct.
+✅ Task 4: Modify an existing JSON file by appending new data without losing previous data.
+✅ Task 5: Convert a struct to JSON, save it to a file, then read and decode it back into a struct.
